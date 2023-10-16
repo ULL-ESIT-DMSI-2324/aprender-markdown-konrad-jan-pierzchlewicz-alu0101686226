@@ -1,43 +1,112 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=12400321)
-# Máster en Formación del Profesorado - 21/22
-## Aprendizaje y Enseñanza de la Tecnología <img src="logos/logo.png" style="float: right;" alt="ULL" width="100"/>
+# Máster en Ingenieria Informatica - 23/24
+## Aprendizaje y Enseñanza de la Tecnología 
+### Test header with a logo
+<img src="logos/logo.png" style="float: right;" alt="ULL" width="100"/>
+
 ---
 
 
 
+Student: **[Konrad Jan Pierzchlewicz](https://campusdoctoradoyposgrado2122.ull.es/user/profile.php?id=1156)** - [Konobono](https://github.com/Konobono)
 
-Alumno: **[Alejandro Marrero Díaz](https://campusdoctoradoyposgrado2122.ull.es/user/profile.php?id=1156)** - [amarrerod](https://github.com/amarrerod)
-
-Puedes enviarme un *correo* a `let email: str = "alu0100825008@ull.edu.es"`. Para consultar la mi experiencia en el Máster y un breve CV puedes pulsar [este enlace](master.md)
-
-*Cita favorita:*
->A computer would deserve to be called intelligent if it could deceive a human into believing that it was human - Alan Turing
+You can send me an *e-mail* at `let email: str = "alu0101686226@ull.edu.es"`. To consult my experience in the Master's Degree and a brief CV, you can click on [this link](master.md). If you want to know about my objectives click [here](objectivos.md).
 
 
-Un día de trabajo para mí es algo como esto:
+---
+
+*Favourite quote:*
+>The way to get started is to quit talking and begin doing. -Walt Disney
+
+
+A work day for me is something like this:
 
 ```python
-def routine(self, pomodoros: int = 4, coffee: Coffee):
-    counter = 0
-    while is_day_time() and counter < pomodoros:
-        if coffee.empty():
-            coffee.refill()
-        
-        self.drink(coffee)
-        self.work(during=25)
-        self.chill(during=5)
-        counter += 1
+def break_or_not():
+
+    number = random.randint(0, 100)
+    print(number)
+
+    if 0 > number > 100:
+        break_time = True
+    else:
+        break_time = False
+    print(break_time)
+
+    return break_time
+
+break_or_not()
+
 
 ```
 
+## A list with no order
 
+- Tomas
+- Lucas
+- Giorgio
+
+
+## A list with order
+
+1. Something
+2. Something other
+3. Some other thing
 
 ---
-**Enlaces de contacto**:
+**Important link**:
+
+[DeepL Translator](https://www.deepl.com/translator)
 
 |      Redes Sociales       |                                                                                                                   |
 | :-----------------------: | :---------------------------------------------------------------------------------------------------------------: |
-|   LinkedIn :briefcase:    |               [<img src="logos/linkedin.png" width="32">](https://www.linkedin.com/in/alemarrero/)                |
-|  Google Scholar :school:  | [<img src="logos/google.png" width="32">](https://scholar.google.es/citations?hl=es&authuser=2&user=-E9F8KEAAAAJ) |
-| ResearchGate :microscope: |     [<img src="logos/researchgate.png" width="32">](https://www.researchgate.net/profile/Alejandro-Marrero-2)     |
+[ULL academic profile](https://campusingenieriaytecnologia2324.ull.es/user/profile.php)
+| ^^^ | 
+
+
+
+## Inline code
+
+In markdown you can put in a link like that: `[Some name to a link](link)` and this is an example of inline code
+
+---
+
+## Image
+
+![](logos/banana.jpeg)
+
+---
+
+## A table
+
+First Header | Second Header
+  ------------ | -------------
+  Content from cell 1 | Content from cell 2
+  Content in the first column | Content in the second column
+  <img src="logos/logo.png" style="float: middle;" alt="ULL" width="50"/>
+
+:+1:
+
+## Math
+
+$$ P = \frac {a^2 \sqrt {3}}{4}$$
+
+---
+
+## Diagram
+
+```mermaid
+    graph TD;
+        A-->|Sí|B;
+        A-->|No|C;
+        B-->D;
+        C-->D;
+```
+
+
+## Task list
+
+- [x] Apprender tutorial
+- [ ] Catch-up
+- [ ] Add delight to the experience when all tasks are complete :+1:
+
 
